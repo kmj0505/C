@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include <string.h>
 
+
 //예제 16-3
 
 int main(void)
