@@ -3,8 +3,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-//¿¹Á¦ 16-3
-/*
+//ì˜ˆì œ 16-3
+
 int main(void)
 {
 	int* pi;
@@ -16,7 +16,7 @@ int main(void)
 	pi = (int*)calloc(size, sizeof(int));
 	while (1)
 	{
-		printf("¾ç¼ö¸¸ ÀÔ·ÂÇÏ¼¼¿ä => ");
+		printf("ì–‘ìˆ˜ë§Œ ìž…ë ¥í•˜ì„¸ìš” => ");
 		scanf_s("%d", &num);
 		if (num <= 0) break;
 		if (count == size)
@@ -34,10 +34,10 @@ int main(void)
 
 	return 0;
 }
-*/
 
-//¿¹Á¦ 16-4
-/*
+
+//ì˜ˆì œ 16-4
+
 int main(void)
 {
 	char temp[80];
@@ -46,7 +46,7 @@ int main(void)
 
 	for (i = 0; i < 3; i++)
 	{
-		printf("¹®ÀÚ¿­À» ÀÔ·ÂÇÏ¼¼¿ä : ");
+		printf("ë¬¸ìžì—´ì„ ìž…ë ¥í•˜ì„¸ìš” : ");
 		gets(temp);
 		str[i] = (char*)malloc(strlen(temp) + 1);
 		strcpy(str[i], temp);
@@ -64,10 +64,10 @@ int main(void)
 
 	return 0;
 }
-*/
 
-//¿¹Á¦ 16-5
-/*
+
+//ì˜ˆì œ 16-5
+
 void print_str(char** ps);
 
 int main(void)
@@ -78,7 +78,7 @@ int main(void)
 
 	while (i < 20)
 	{
-		printf("¹®ÀÚ¿­À» ÀÔ·ÂÇÏ¼¼¿ä : ");
+		printf("ë¬¸ìžì—´ì„ ìž…ë ¥í•˜ì„¸ìš” : ");
 		gets(temp);
 		if (strcmp(temp, "end") == 0)break;
 		str[i] = (char*)malloc(strlen(temp) + 1);
@@ -102,4 +102,3 @@ void print_str(char** ps)
 		ps++;
 	}
 }
-*/
